@@ -1,4 +1,4 @@
-# Al-saded — The Semantic Guardian
+# Saded — The Semantic Guardian
 ### AI-Powered Real-Time Survey Validation System
 **GASTAT Data Innovation Hackathon — Track 2: AI-Powered Smart Processing**
 **Road to Riyadh 2026 | UN World Data Forum**
@@ -29,7 +29,7 @@
 
 ## Overview
 
-**Al-Haris (سراحلا)** is an LLM-powered co-pilot that integrates directly into GASTAT's survey data collection pipeline. It analyzes each submitted survey response in real-time, assigns a **Trust Score (0–100)**, flags semantic contradictions with plain-Arabic explanations, and suggests corrections — all within **2 seconds** of submission.
+**Saded (سديد)** is an LLM-powered co-pilot that integrates directly into GASTAT's survey data collection pipeline. It analyzes each submitted survey response in real-time, assigns a **Trust Score (0–100)**, flags semantic contradictions with plain-Arabic explanations, and suggests corrections — all within **2 seconds** of submission.
 
 > **No National Statistical Office in the world has deployed a real-time LLM-powered semantic validation layer in production. Al-Haris is the first.**
 
