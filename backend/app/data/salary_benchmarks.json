@@ -1,0 +1,21 @@
+{
+  "regions": {
+    "riyadh": {"cost_of_living_index": 100, "median_salary_sar": 8500},
+    "jeddah": {"cost_of_living_index": 105, "median_salary_sar": 8200},
+    "dammam": {"cost_of_living_index": 95, "median_salary_sar": 7800},
+    "mecca": {"cost_of_living_index": 110, "median_salary_sar": 7500},
+    "medina": {"cost_of_living_index": 90, "median_salary_sar": 6500},
+    "rural": {"cost_of_living_index": 70, "median_salary_sar": 4500}
+  },
+  "luxury_vehicle_threshold_sar": 200000,
+  "min_income_for_luxury_vehicle_sar": 15000,
+  "housing": {
+    "min_rooms_per_person_ratio": 0.15,
+    "max_persons_per_room_before_flag": 5
+  },
+  "age_constraints": {
+    "min_working_age": 15,
+    "max_experience_start_age": 18,
+    "retirement_age": 60
+  }
+}

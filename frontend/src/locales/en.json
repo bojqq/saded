@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "validate": "Validate Survey",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "account": "Account",
+    "operations": "Operations",
+    "management": "Management"
+  },
+  "brand": {
+    "name": "سديد",
+    "subtitle": "سديد · GASTAT"
+  },
+  "search": "Search records…",
+  "user": {
+    "name": "GASTAT",
+    "role": "Field Surveyor"
+  },
+  "topbar": {
+    "live": "Live"
+  },
+  "survey": {
+    "title": "Labour Force Survey",
+    "subtitle": "GASTAT LFS — real-time semantic validation by AI",
+    "demoScenarios": "Demo Scenarios — click to load a profile",
+    "formTitle": "Survey Entry",
+    "submitBtn": "Validate Entry",
+    "validating": "Validating…",
+    "emptyState": "Load a demo profile or fill the form, then click Validate",
+    "noContradictions": "No contradictions detected — entry is consistent ✓",
+    "issuesDetected_one": "{{count}} issue detected",
+    "issuesDetected_other": "{{count}} issues detected",
+
+    "sections": {
+      "personal":    "Personal Information",
+      "education":   "Education",
+      "employment":  "Employment Details"
+    },
+
+    "fields": {
+      "surveyId":          "Survey ID",
+      "respondentId":      "Respondent ID",
+      "age":               "Age",
+      "gender":            "Gender",
+      "nationality":       "Nationality",
+      "maritalStatus":     "Marital Status",
+      "region":            "Region",
+      "educationLevel":    "Education Level",
+      "employmentStatus":  "Employment Status",
+      "occupation":        "Occupation",
+      "workSector":        "Work Sector",
+      "weeklyWorkHours":   "Weekly Work Hours",
+      "monthlyIncome":     "Monthly Income (SAR)",
+      "yearsOfExperience": "Years of Experience"
+    },
+
+    "placeholders": {
+      "occupation":          "e.g. Civil Engineer, Teacher, Nurse",
+      "selectGender":        "Select gender…",
+      "selectNationality":   "Select nationality…",
+      "selectMarital":       "Select status…",
+      "selectRegion":        "Select region…",
+      "selectEducation":     "Select education level…",
+      "selectEmployment":    "Select employment status…",
+      "selectWorkSector":    "Select sector…"
+    },
+
+    "gender":       { "male": "Male", "female": "Female" },
+    "nationality":  { "saudi": "Saudi", "non_saudi": "Non-Saudi" },
+    "marital":      { "single": "Single", "married": "Married", "divorced": "Divorced", "widowed": "Widowed" },
+    "regions": {
+      "riyadh":    "Riyadh",
+      "makkah":    "Makkah",
+      "madinah":   "Madinah",
+      "eastern":   "Eastern Province",
+      "asir":      "Asir",
+      "qassim":    "Al-Qassim",
+      "tabuk":     "Tabuk",
+      "hail":      "Hail",
+      "jizan":     "Jizan",
+      "najran":    "Najran",
+      "jawf":      "Al-Jouf",
+      "bahah":     "Al-Bahah",
+      "northern":  "Northern Borders"
+    },
+    "education": {
+      "none":          "None",
+      "primary":       "Primary",
+      "intermediate":  "Intermediate",
+      "secondary":     "Secondary",
+      "diploma":       "Diploma",
+      "bachelor":      "Bachelor",
+      "postgraduate":  "Postgraduate",
+      "doctorate":     "Doctorate"
+    },
+    "employment": {
+      "employed":            "Employed",
+      "unemployed":          "Unemployed (seeking work)",
+      "not_in_labor_force":  "Not in Labour Force"
+    },
+    "sector": {
+      "government":   "Government",
+      "private":      "Private",
+      "self_employed":"Self-Employed",
+      "non_profit":   "Non-Profit"
+    },
+
+    "scenarios": {
+      "s1Label":  "Mohammed — Surgeon, age 21",
+      "s1Hint":   "Age vs Experience · Education vs Occupation",
+      "s2Label":  "Noura — Unemployed, 42 K SAR/mo",
+      "s2Hint":   "Employment Status vs Income",
+      "s3Label":  "Ahmed — Government Engineer",
+      "s3Hint":   "Valid consistent profile"
+    },
+
+    "error": "Validation request failed. Is the backend running?"
+  },
+
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Supervisor overview — data quality monitoring",
+    "refresh": "Refresh",
+    "kpi": {
+      "totalSubmissions": "Total Submissions",
+      "allTime":          "All-time",
+      "avgTrustScore":    "Avg Trust Score",
+      "outOf100":         "out of 100",
+      "hardErrors":       "Hard Errors",
+      "ofTotal":          "% of total",
+      "cleanRecords":     "Clean Records"
+    },
+    "charts": {
+      "severityDistribution":    "Severity Distribution",
+      "trustScoreDistribution":  "Trust Score Distribution",
+      "submissionTrend":         "Submission Trend",
+      "last7Days":               "Last 7 days",
+      "topErrorFields":          "Top Error Fields",
+      "noData":                  "No data yet",
+      "noErrors":                "No errors yet",
+      "records":                 "records"
+    },
+    "table": {
+      "title":   "Recent Submissions",
+      "shown":   "{{count}} shown",
+      "headers": {
+        "surveyId":       "Survey ID",
+        "respondent":     "Respondent",
+        "trust":          "Trust",
+        "severity":       "Severity",
+        "classification": "Classification",
+        "ms":             "ms",
+        "submitted":      "Submitted"
+      },
+      "clean":          "Clean",
+      "noSubmissions":  "No submissions yet"
+    },
+    "error": "Failed to load dashboard. Is the backend running?"
+  },
+
+  "trustScore": {
+    "title":    "Trust Score",
+    "severity": {
+      "GREEN":  "Trusted",
+      "YELLOW": "Suspect",
+      "RED":    "Critical Error"
+    },
+    "processing": "{{ms}}ms"
+  },
+
+  "contradiction": {
+    "suggestedFix": "Suggested Correction",
+    "confidence":   "{{pct}}% confidence",
+    "accept":       "Accept",
+    "dismiss":      "Dismiss",
+    "types": {
+      "HARD_ERROR":        "Hard Error",
+      "SOFT_WARNING":      "Soft Warning",
+      "PLAUSIBLE_OUTLIER": "Plausible Outlier"
+    }
+  }
+}

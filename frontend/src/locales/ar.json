@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "validate": "التحقق من الاستبيان",
+    "dashboard": "لوحة التحكم",
+    "settings": "الإعدادات",
+    "account": "الحساب",
+    "operations": "العمليات",
+    "management": "الإدارة"
+  },
+  "brand": {
+    "name": "سديد",
+    "subtitle": "سديد · هيئة الإحصاء"
+  },
+  "search": "البحث في السجلات…",
+  "user": {
+    "name": "هيئة الإحصاء",
+    "role": "مستجوب ميداني"
+  },
+  "topbar": {
+    "live": "مباشر"
+  },
+  "survey": {
+    "title": "مسح القوى العاملة",
+    "subtitle": "هيئة الإحصاء — التحقق الدلالي الفوري بالذكاء الاصطناعي",
+    "demoScenarios": "سيناريوهات تجريبية — انقر لتحميل الملف",
+    "formTitle": "إدخال بيانات المستجيب",
+    "submitBtn": "تحقق من الإدخال",
+    "validating": "جاري التحقق…",
+    "emptyState": "حمّل سيناريو تجريبي أو أدخل البيانات ثم انقر تحقق",
+    "noContradictions": "لا توجد تعارضات — الإدخال متسق ✓",
+    "issuesDetected_one": "تم اكتشاف {{count}} مشكلة",
+    "issuesDetected_other": "تم اكتشاف {{count}} مشاكل",
+
+    "sections": {
+      "personal":   "المعلومات الشخصية",
+      "education":  "التعليم",
+      "employment": "بيانات العمل"
+    },
+
+    "fields": {
+      "surveyId":          "رقم الاستبيان",
+      "respondentId":      "رقم المستجيب",
+      "age":               "العمر",
+      "gender":            "الجنس",
+      "nationality":       "الجنسية",
+      "maritalStatus":     "الحالة الاجتماعية",
+      "region":            "المنطقة",
+      "educationLevel":    "المستوى التعليمي",
+      "employmentStatus":  "وضع العمل",
+      "occupation":        "المهنة",
+      "workSector":        "قطاع العمل",
+      "weeklyWorkHours":   "ساعات العمل الأسبوعية",
+      "monthlyIncome":     "الدخل الشهري (ريال)",
+      "yearsOfExperience": "سنوات الخبرة"
+    },
+
+    "placeholders": {
+      "occupation":        "مثل: مهندس مدني، معلم، ممرض",
+      "selectGender":      "اختر الجنس…",
+      "selectNationality": "اختر الجنسية…",
+      "selectMarital":     "اختر الحالة…",
+      "selectRegion":      "اختر المنطقة…",
+      "selectEducation":   "اختر المستوى التعليمي…",
+      "selectEmployment":  "اختر وضع العمل…",
+      "selectWorkSector":  "اختر القطاع…"
+    },
+
+    "gender":      { "male": "ذكر", "female": "أنثى" },
+    "nationality": { "saudi": "سعودي", "non_saudi": "غير سعودي" },
+    "marital":     { "single": "أعزب", "married": "متزوج", "divorced": "مطلق", "widowed": "أرمل" },
+    "regions": {
+      "riyadh":   "الرياض",
+      "makkah":   "مكة المكرمة",
+      "madinah":  "المدينة المنورة",
+      "eastern":  "المنطقة الشرقية",
+      "asir":     "عسير",
+      "qassim":   "القصيم",
+      "tabuk":    "تبوك",
+      "hail":     "حائل",
+      "jizan":    "جازان",
+      "najran":   "نجران",
+      "jawf":     "الجوف",
+      "bahah":    "الباحة",
+      "northern": "الحدود الشمالية"
+    },
+    "education": {
+      "none":         "لا يوجد",
+      "primary":      "ابتدائي",
+      "intermediate": "متوسط",
+      "secondary":    "ثانوي",
+      "diploma":      "دبلوم",
+      "bachelor":     "بكالوريوس",
+      "postgraduate": "دراسات عليا",
+      "doctorate":    "دكتوراه"
+    },
+    "employment": {
+      "employed":           "موظف",
+      "unemployed":         "عاطل عن العمل (يبحث)",
+      "not_in_labor_force": "خارج قوة العمل"
+    },
+    "sector": {
+      "government":    "حكومي",
+      "private":       "خاص",
+      "self_employed": "عمل حر",
+      "non_profit":    "غير ربحي"
+    },
+
+    "scenarios": {
+      "s1Label": "محمد — جراح، عمره 21",
+      "s1Hint":  "العمر vs الخبرة · التعليم vs المهنة",
+      "s2Label": "نورة — عاطلة، دخل 42,000 ريال",
+      "s2Hint":  "وضع العمل vs الدخل",
+      "s3Label": "أحمد — مهندس حكومي",
+      "s3Hint":  "ملف صحيح ومتسق"
+    },
+
+    "error": "فشل طلب التحقق. هل الخادم يعمل؟"
+  },
+
+  "dashboard": {
+    "title":    "لوحة التحكم",
+    "subtitle": "نظرة عامة للمشرف — مراقبة جودة البيانات",
+    "refresh":  "تحديث",
+    "kpi": {
+      "totalSubmissions": "إجمالي الإرسالات",
+      "allTime":          "منذ البداية",
+      "avgTrustScore":    "متوسط درجة الثقة",
+      "outOf100":         "من 100",
+      "hardErrors":       "أخطاء حرجة",
+      "ofTotal":          "% من الإجمالي",
+      "cleanRecords":     "سجلات نظيفة"
+    },
+    "charts": {
+      "severityDistribution":   "توزيع درجات الخطورة",
+      "trustScoreDistribution": "توزيع درجات الثقة",
+      "submissionTrend":        "اتجاه الإرسالات",
+      "last7Days":              "آخر 7 أيام",
+      "topErrorFields":         "الحقول الأكثر خطأً",
+      "noData":                 "لا توجد بيانات بعد",
+      "noErrors":               "لا توجد أخطاء بعد",
+      "records":                "سجل"
+    },
+    "table": {
+      "title":  "آخر الإرسالات",
+      "shown":  "{{count}} سجل",
+      "headers": {
+        "surveyId":       "رقم الاستبيان",
+        "respondent":     "المستجيب",
+        "trust":          "الثقة",
+        "severity":       "الخطورة",
+        "classification": "التصنيف",
+        "ms":             "مللي ث",
+        "submitted":      "تاريخ الإرسال"
+      },
+      "clean":         "نظيف",
+      "noSubmissions": "لا توجد إرسالات بعد"
+    },
+    "error": "فشل تحميل لوحة التحكم. هل الخادم يعمل؟"
+  },
+
+  "trustScore": {
+    "title": "درجة الثقة",
+    "severity": {
+      "GREEN":  "موثوق",
+      "YELLOW": "مشكوك فيه",
+      "RED":    "خطأ جسيم"
+    },
+    "processing": "{{ms}} مللي ث"
+  },
+
+  "contradiction": {
+    "suggestedFix": "التصحيح المقترح",
+    "confidence":   "ثقة {{pct}}%",
+    "accept":       "قبول",
+    "dismiss":      "تجاهل",
+    "types": {
+      "HARD_ERROR":        "خطأ جسيم",
+      "SOFT_WARNING":      "تحذير",
+      "PLAUSIBLE_OUTLIER": "شذوذ محتمل"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "surgeon": {"min_education": "postgraduate", "min_years_experience": 10, "typical_income_sar": [25000, 80000]},
+  "doctor": {"min_education": "postgraduate", "min_years_experience": 5, "typical_income_sar": [20000, 60000]},
+  "dentist": {"min_education": "postgraduate", "min_years_experience": 4, "typical_income_sar": [15000, 50000]},
+  "pharmacist": {"min_education": "bachelor", "min_years_experience": 3, "typical_income_sar": [10000, 30000]},
+  "nurse": {"min_education": "diploma", "min_years_experience": 2, "typical_income_sar": [5000, 15000]},
+  "engineer": {"min_education": "bachelor", "min_years_experience": 2, "typical_income_sar": [8000, 30000]},
+  "lawyer": {"min_education": "bachelor", "min_years_experience": 3, "typical_income_sar": [10000, 40000]},
+  "teacher": {"min_education": "bachelor", "min_years_experience": 1, "typical_income_sar": [5000, 15000]},
+  "accountant": {"min_education": "bachelor", "min_years_experience": 1, "typical_income_sar": [5000, 20000]},
+  "pilot": {"min_education": "diploma", "min_years_experience": 3, "typical_income_sar": [20000, 60000]},
+  "driver": {"min_education": "none", "min_years_experience": 1, "typical_income_sar": [2000, 6000]},
+  "farmer": {"min_education": "none", "min_years_experience": 0, "typical_income_sar": [1500, 5000]},
+  "laborer": {"min_education": "none", "min_years_experience": 0, "typical_income_sar": [1000, 4000]},
+  "manager": {"min_education": "bachelor", "min_years_experience": 5, "typical_income_sar": [15000, 50000]},
+  "director": {"min_education": "bachelor", "min_years_experience": 8, "typical_income_sar": [25000, 80000]},
+  "programmer": {"min_education": "bachelor", "min_years_experience": 1, "typical_income_sar": [8000, 25000]},
+  "chef": {"min_education": "none", "min_years_experience": 2, "typical_income_sar": [3000, 12000]},
+  "security_guard": {"min_education": "none", "min_years_experience": 0, "typical_income_sar": [1500, 4000]},
+  "professor": {"min_education": "doctorate", "min_years_experience": 5, "typical_income_sar": [15000, 35000]},
+  "architect": {"min_education": "bachelor", "min_years_experience": 3, "typical_income_sar": [8000, 25000]}
+}
