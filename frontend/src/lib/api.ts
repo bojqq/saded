@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_URL ?? "";
 
 export interface ValidationFlag {
   fields: string[];
@@ -66,4 +66,6 @@ export async function fetchDashboardMetrics(): Promise<DashboardMetrics> {
   return res.json();
 }
 
-export const WS_URL = API_BASE.replace(/^http/, "ws") + "/ws/validate";
+const _wsBase = API_BASE
+  || `${window.location.protocol === "https:" ? "wss:" : "ws:"}//${window.location.host}`;
+export const WS_URL = _wsBase + "/ws/validate";
