@@ -1,8 +1,11 @@
 import logging
+import os
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
 from app.core.config import get_settings
 from app.api.routes import health, validate, websocket, dashboard
@@ -40,6 +43,18 @@ def create_app() -> FastAPI:
     app.include_router(validate.router, prefix="/api/v1", tags=["Validation"])
     app.include_router(dashboard.router, prefix="/api/v1", tags=["Dashboard"])
     app.include_router(websocket.router, tags=["WebSocket"])
+
+    # Serve built React frontend (production only — static/ dir exists in Docker image)
+    if os.path.exists("static/assets"):
+        app.mount("/assets", StaticFiles(directory="static/assets"), name="assets")
+
+    if os.path.exists("static/index.html"):
+        @app.get("/{full_path:path}", include_in_schema=False)
+        async def serve_spa(full_path: str):
+            file_path = f"static/{full_path}"
+            if os.path.isfile(file_path):
+                return FileResponse(file_path)
+            return FileResponse("static/index.html")
 
     return app
 
